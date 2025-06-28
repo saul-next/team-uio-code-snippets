@@ -1,11 +1,11 @@
 function initBloomreachGA() {
   // Configuration: Customize for each experience
   const CONFIG = {
-    TICKET_NUMBER: "YOUR_TICKET_NUMBER", // e.g., "4374346"
-    TICKET_TITLE: "YOUR_TICKET_TITLE", // e.g., "Indefinite Tray With Recs"
-    COUNTRY_CODE: "YOUR_COUNTRY_CODE", // e.g., "UK/IE/UAE"
+    TICKET_NUMBER: "YOUR_TICKET_NUMBER", // e.g., "4439259"
+    TICKET_TITLE: "YOUR_TICKET_TITLE", // e.g., "Have You Thought About Links"
+    COUNTRY_CODE: "YOUR_COUNTRY_CODE", // e.g., "UK", "IE", "UAE"
     PAGE_TYPE: "PDP", // e.g., "PDP", "PLP", "MA"
-    IS_EXP: false, // true for EXP, false for CTRL
+    IS_EXP: true, // true for EXP, false for CTRL
   };
 
   /**
