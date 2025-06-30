@@ -31,7 +31,6 @@ function initBloomreachGA() {
           : null;
       if (!trackFn) {
         throw new Error("GA tracking function not found");
-        return;
       }
       trackFn(category, action, fullLabel);
     } catch (err) {
